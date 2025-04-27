@@ -13,15 +13,9 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  gymexercises,
+  admindashboard,
+  librarysystem,
   threejs,
 } from "../assets";
 
@@ -46,7 +40,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Developer",
     icon: mobile,
   },
   {
@@ -54,7 +48,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -72,10 +66,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
@@ -104,70 +95,72 @@ const technologies = [
     name: "git",
     icon: git,
   },
+
+];
+const experiences = [
   {
-    name: "figma",
-    icon: figma,
+    title: "Started Programming Journey",
+    company_name: "Self-Learning",
+    date: "2021",
+    points: [
+      "Started learning HTML and CSS to build basic web pages.",
+      "Learned the fundamentals of web development and design.",
+      "Developed a passion for creating websites and exploring coding.",
+    ],
   },
   {
-    name: "docker",
-    icon: docker,
+    title: "Learned Python Programming",
+    company_name: "Self-Learning",
+    date: "2022",
+    points: [
+      "Dived deep into Python programming language.",
+      "Built small projects to understand Python syntax and logic.",
+      "Focused on understanding data structures and algorithms.",
+    ],
+  },
+  {
+    title: "Problem Solving and Data Structures (DSA)",
+    company_name: "LeetCode | Self-Projects",
+    date: "2023",
+    points: [
+      "Started practicing problem-solving on platforms like LeetCode using Python.",
+      "Strengthened knowledge in data structures and algorithms.",
+      "Built projects using DSA principles to solve real-world problems.",
+    ],
+  },
+  {
+    title: "Explored Frontend Technologies",
+    company_name: "Self-Learning",
+    date: "2024",
+    points: [
+      "Explored frontend development with JavaScript and ReactJS.",
+      "Built interactive user interfaces with React and basic JavaScript.",
+      "Learned modern web development tools and frameworks.",
+    ],
+  },
+  {
+    title: "Full-Stack Development (MERN Stack)",
+    company_name: "Self-Projects",
+    date: "2025 - Present",
+    points: [
+      "Started working on MERN stack, focusing on MongoDB, Express, React, and Node.js.",
+      "Built dynamic full-stack applications and integrated APIs.",
+      "Continuing to develop my skills in full-stack development, focusing on performance and scalability.",
+    ],
+  },
+  {
+    title: "Teaching Python to Beginners",
+    company_name: "Freelance | Cybeorg",
+    date: "Dec 2024 - Present",
+    points: [
+      "Started teaching Python to beginners with structured and personalized lesson plans.",
+      "Focused on breaking down complex programming concepts into manageable lessons.",
+      "Helped students build a strong foundation in Python, solving problems and creating projects.",
+    ],
   },
 ];
 
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+
 
 const testimonials = [
   {
@@ -195,61 +188,60 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gym Exercises",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An interactive fitness app built using ReactJS and RapidAPI that lets users explore exercises by muscle groups, watch YouTube tutorials, and get workout suggestions with smart API rate-limit handling.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gymexercises, // You can name your image import
+    source_code_link: "https://github.com/", // Replace with your real link if available
   },
   {
-    name: "Job IT",
+    name: "AI-Powered Web Summarizer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive web application that summarizes content from any URL (blogs, articles, documentation) using AI via RapidAPI, published as an open-source project with a clean TailwindCSS UI.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rapidapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    // image: summarizer, // Name your image import
+    source_code_link: "https://github.com/", // Replace with your real link
   },
   {
-    name: "Trip Guide",
+    name: "React Admin Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A business dashboard using ReactJS and Syncfusion for tracking customer, employee, and order data with mobile-responsive, interactive charts and tables.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "syncfusion",
         color: "green-text-gradient",
       },
       {
@@ -257,9 +249,31 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: admindashboard,
+    source_code_link: "https://admin-dashboard-pi-eight-70.vercel.app/",
+  },
+  {
+    name: "Library Management System",
+    description:
+      "A real-world library system developed in Python with unique book IDs, lending, returning, and due-date tracking functionalities using Object-Oriented Programming concepts.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "oop",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cli-app",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: librarysystem,
+    source_code_link: "https://github.com/", // Add your real repo link if available
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

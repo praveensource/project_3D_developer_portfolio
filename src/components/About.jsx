@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a Full-Stack Developer skilled in JavaScript, Python, and the MERN stack, focused on building scalable and user-friendly web applications.
+I specialize in React, Node.js, TailwindCSS, and API integration, with strong problem-solving skills backed by 150+ LeetCode challenges.
+Passionate about creating real-world solutions and always eager to learn and collaborate.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
